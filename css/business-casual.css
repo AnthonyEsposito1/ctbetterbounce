@@ -1,0 +1,313 @@
+/*!
+	* Start Bootstrap - Business Casual (http://startbootstrap.com/)
+	* Copyright 2013-2016 Start Bootstrap
+	* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+*/
+
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/IMG6129.PNG') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.col-md-3 img {
+	height: auto; 
+	width: 100%; 
+	object-fit: contain; 
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.col-md-3 {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.brand-name h1{
+	margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 5px 5px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+#carousel-example-generic {
+	    margin: 0px 150px;
+	}
+
+#imgtext {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+	color: white;
+}
+
+#imgtext h3 {
+	padding: 12.5px;
+	margin: 5px 5px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#first-box {
+	padding-top: 25px;
+	}
+	
+@media screen and (min-width:992px) {
+#text {
+	margin: 0 145px;
+	width: 75%;
+	}
+}
+	
+#nav_bar {
+	width: 100%;
+	}	
+
+
+#second_nav { 
+	position: relative;
+	margin-bottom: -35px;
+	top: -121px;
+	text-align: right;
+	padding-right: 50px;
+}
+
+#second_nav li {
+	display: inline;
+	font-size: 1.6rem;
+}
+
+#second_nav a {
+	color: white;
+}
+
+#above-navbar {
+	background: rgba(10, 95, 255,0.4);
+    padding: 1px;
+	}
+
+.col-md-3 a img:hover {
+	opacity: 0.5;
+}
+
+.divider-vertical {
+	height: 40px;
+	margin: 0 9px;
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #ffffff;
+}
+
+.nav-item {
+	font-family: "Kristen ITC";
+	}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 35px 0;
+	font-size: 4rem;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: blue;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #333;
+}
+
+.box3 {
+	padding-bottom: 10px;
+	}
+	
+	
+#media{
+	padding: 20px 0px 0px 20px;
+	position: absolute;
+
+}
+
+#media .btn {
+	z-index: 9999;
+	cursor: pointer;
+	}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 15px 0 7.5px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Kristen ITC";
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+	}
+	
+    .top-divider {
+        margin-top: 0;
+	}
+	
+    .img-left {
+        float: left;
+        margin-right: 25px;
+	}
+	
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 16px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+	}
+	
+    .navbar {
+        border-radius: 0;
+	}
+	
+    .navbar-header {
+        display: none;
+	}
+	
+    .navbar {
+        min-height: 0;
+	}
+	
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+	}
+	
+    .nav>li>a {
+        padding: 35px;
+	}
+	
+    .navbar-nav>li>a {
+        line-height: normal;
+	}
+	
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+	}
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+	}
+}
+
+
+
